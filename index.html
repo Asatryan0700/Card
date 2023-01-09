@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Personal Card</title>
+    <style>
+        @import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css);
+        body {
+            
+            height: 100vh;
+            display: grid;
+            grid-template-columns: repeat(2, auto);
+            justify-content: center;
+            align-content: center;
+            margin: 0;
+            gap: 30px;
+        }
+        dream-cc {
+            background-color: aliceblue;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <input type="text" name="user">
+        <input type="text" name="prof">
+        <input type="email" name="mail">
+        <input type="tel" name="tel">
+        <select name="logo">
+            <option value="react">Реакт</option>
+            <option value="java">Java</option>
+        </select>
+    </form>
+    <aaa-bcard user="Asatryan0700" prof="Developer" tel="+7(123)456-78-90" mail="6dsfdfsfa@yan.ru" logo="react"></aaa-bcard>
+    <script src="index.js" type="module"></script>
+</body>
+</html>
