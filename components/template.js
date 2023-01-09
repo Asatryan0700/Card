@@ -34,7 +34,7 @@ export default {
                 align-content: space-between;
                 font-size: 16pt;
                 font-family: sans-serif;
-                background: rgb(2,0,36);
+box-shadow: 0px 0px 6px 1px rgba(0, 0, 0, 0.521);
                             }
             .logo {
                 grid-row-end: span 3;
