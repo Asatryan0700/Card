@@ -35,9 +35,7 @@ export default {
                 font-size: 16pt;
                 font-family: sans-serif;
                 background: rgb(2,0,36);
-background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(151,151,255,1) 0%, rgba(0,212,255,1) 100%);
-color: whitesmoke;
-            }
+                            }
             .logo {
                 grid-row-end: span 3;
                 font-size: 32pt;
